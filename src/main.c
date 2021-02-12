@@ -5,7 +5,7 @@
 int main(void)
 {
     // make the LED pin an output for PORTA
-    DDRA = 0xFF;                    // Set all portA pins as output
+    DDRA = 0xFF;                    //Set all portA pins as output
     PORTA = 0;                      //Turn all LEDS off
 
     // make the switch pin an input for PORTE
