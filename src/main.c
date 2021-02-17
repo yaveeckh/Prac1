@@ -1,10 +1,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-//Binary to gray code
-char binary_gc(unsigned char binary) {
-    return binary ^ (binary >> 1);
-}
 
 int main(void)
 {
